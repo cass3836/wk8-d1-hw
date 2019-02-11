@@ -1,0 +1,30 @@
+1. What is responsible for defining the routes of the `games` resource?
+
+The 'create_router.js' file.
+
+2. What are the the responsibilities of server.js?
+
+Connecting the server to the database.
+
+3. What are the responsibilities of the `gamesRouter`?
+
+Defining the routes of the games resource...?? (either this or 1 is clearly wrong)
+
+4. What process does the the client (front-end) use to communicate with the server?
+
+Submits a form that publishes to the games model, which posts to and gets data
+from the database(??), which it then publishes back to the games-grid-view.
+
+5. What optional second argument does the `fetch` method take? And what is it used for in this application? Hint: See [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) on the MDN docs
+
+An HTTP method (here POST and DELETE).
+
+6. Which of the games API routes does the front-end application consume (i.e. make requests to)?
+
+get '/'
+post '/'
+delete '/:id'
+
+7. What are we using the [MongoDB Driver](http://mongodb.github.io/node-mongodb-native/) for?
+
+Viewing our database.
